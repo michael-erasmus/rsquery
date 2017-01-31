@@ -1,0 +1,4 @@
+#!/bin/sh
+
+input="/dev/stdin"
+docker run --rm -i --env-file=$HOME/.env rsquery < "$input"
